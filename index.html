@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Médico</title>
+    <link rel="stylesheet" href="estiloCHATBOT.CSS">
+</head>
+<body>
+    <nav class="menu">
+        <ul>
+            <li><a href="index.html">Chat Médico</a></li>
+            <li><a href="doctores.html">Acceso para Doctores</a></li>
+            <li><a href="registro_pacientes.html">Registro de Pacientes</a></li>
+        </ul>
+    </nav>
+    <header class="header">
+        <img src="banner.png" alt="Banner Chat Médico" class="banner">
+    </header>
+    <main class="chatbot-container" id="chatSection">
+        <div class="sidebar">
+            <img src="foto-chatbot.jpg" alt="Chatbot" class="side-image">
+            <p>Asistente de salud inteligente que responde tus preguntas.</p>
+        </div>
+        <div class="chat-display" id="chatDisplay"></div>
+        <div class="chat-input">
+            <input type="text" id="userInput" placeholder="Escribe tu pregunta aquí...">
+            <button id="sendButton">Enviar</button>
+        </div>
+    </main>
+    <footer id="footer">
+        <p>&copy; 2024 Health in a code. Todos los derechos reservados.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

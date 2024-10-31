@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Pacientes</title>
+    <link rel="stylesheet" href="estiloCHATBOT.CSS">
+</head>
+<body>
+    <nav class="menu">
+        <ul>
+            <li><a href="index.html">Chat Médico</a></li>
+            <li><a href="doctores.html">Acceso para Doctores</a></li>
+            <li><a href="registro_pacientes.html">Registro de Pacientes</a></li>
+        </ul>
+    </nav>
+    <header class="header">
+        <img src="banner.png" alt="Banner Chat Médico" class="banner">
+    </header>
+    <section class="patient-registration" id="patientRegistrationSection">
+        <div class="sidebar">
+            <img src="foto-paciente.jpg" alt="Registro de Pacientes" class="side-image">
+            <p>Registro detallado de los síntomas y análisis del paciente.</p>
+        </div>
+        <h2>Registro de Pacientes</h2>
+        <form id="patientForm">
+            <input type="text" placeholder="Nombre del paciente" id="patientName" required>
+            <input type="number" placeholder="Edad" id="patientAge" required>
+            <input type="date" placeholder="Fecha de Nacimiento" id="patientDOB" required>
+            <textarea placeholder="Síntomas" id="patientSymptoms" rows="3" required></textarea>
+            <textarea placeholder="Análisis del paciente" id="patientAnalysis" rows="3" required></textarea>
+            <button type="button" id="savePatientButton">Guardar Paciente</button>
+        </form>
+    </section>
+    <footer id="footer">
+        <p>&copy; 2024 Health in a code. Todos los derechos reservados.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
